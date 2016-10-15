@@ -1,0 +1,15 @@
+db:
+    image: mysql
+    volumes:
+    - ./database/:/var/lib/mysql/
+    environment:
+        - MYSQL_ROOT_PASSWORD=SUASENHA
+
+blog:
+    image: wordpress
+    environment:
+        - WORDPRESS_DB_PASSWORD=SUASENHA
+    links:
+        - db:mysql
+    ports:
+        - 80:80
