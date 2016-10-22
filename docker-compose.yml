@@ -7,6 +7,8 @@ db:
 
 blog:
     image: wordpress
+    volumes:
+    - ./localhost/:/var/www/html/    
     environment:
         - WORDPRESS_DB_PASSWORD=SUASENHA
     links:
