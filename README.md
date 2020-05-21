@@ -12,6 +12,9 @@ Sobe imagens atraves de um arquivo yaml
 Sobem em modo silent
 * docker-compose up -d
 
+Desliga mantendo os dados
+* docker-compose stop
+
 Matando a imagem:
 * docker-compose kill
 

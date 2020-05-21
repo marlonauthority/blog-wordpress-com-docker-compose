@@ -1,7 +1,10 @@
 # Ignore tudo
 *
+localhost/.htaccess
+
 
 # Exceto
 !.gitignore
 !README.md
 !docker-compose.yml
+
