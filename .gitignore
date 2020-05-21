@@ -1,0 +1,7 @@
+# Ignore tudo
+*
+
+# Exceto
+!.gitignore
+!README.md
+!docker-compose.yml
